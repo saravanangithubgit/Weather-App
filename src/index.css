@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  width:100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: rgb(25, 48, 58);
+}
+.App{
+background-color: white;
+width: 350px;
+border-radius: 10px;
+padding: 20px;
+}
+.inputcontainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border: 2px solid rgb(0, 170, 255);
+  overflow: hidden;
+  border-radius: 8px;
+}
+.input{
+border: none;
+height: 30px;
+flex: 1%;
+outline: none;
+}
+.search{
+  margin-top:4px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image img{
+  width: 160px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.temp,.City,.Country{
+  display: flex;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 10px;
+  font-size: 25px;
+  justify-content: center;
+}
+.temp{
+  font-weight: bold;
+}
+.City{
+  
+  color: #10c8ec;
+}
+.bottom img{
+  width: 80px;
+  margin-top: 10px;
+}
+.windimg img{
+  width: 50px;
+  height:50px ;
+
+}
+.Totalbottom{
+  display: flex;
+  
+  justify-content: space-between;
+
+  
+}
+li{
+  list-style-type: none;
+  margin-right: 40px;
+}
+
+.humlevel,.hum{
+ margin-left: 20px;
+} 
+.bottom{
+padding: 0;
+margin: 0;
+}
+.humlevel{
+font-weight: bold;
+}
+.hum{
+  color: rgb(75, 62, 62);
+}
+.wind{
+  font-weight: bold;
+}
+.speed{
+  color: rgb(75, 62, 62);
+}
+.by{
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: rgb(54, 135, 202);
+}
+.searchimage img{
+  cursor: pointer;
+}
+.notfound,.loading{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 25px;
+  color: rgb(87, 80, 80);
+  font-weight: 400px;
+}
